@@ -221,7 +221,7 @@ main {
 
 main h4 {
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 600;
     color: #F90303;
     margin-bottom: 1rem;
 }
@@ -229,7 +229,7 @@ main h4 {
 main h2 {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 1.9rem;
     font-weight: 500;
     color: #444242;
     /* letter-spacing: 2; */
@@ -275,6 +275,31 @@ main .zuri_features {
 .join_us p {
     font-size: 1.6rem;
 }
+footer{
+  background: darkslategray;
+}
+.social-media{
+  display: flex;
+  
+  justify-content: space-evenly;
+  margin: 10px 0 5px;
+  padding: 10px 0 5px;
+ 
+}
+.social-media p{
+  padding-top: 10px;
+  color:white;
+  font-size:20px;
+}
+.social-media a img{
+  width: 40px;
+  height: 40px;
+}
+#copyright{
+  text-align: center;
+  color:white;
+}
+
 /* 
 ::placeholder{
   text-transform: capitalize;
