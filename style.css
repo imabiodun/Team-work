@@ -49,7 +49,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background: #221c23;
-  padding: 1rem 3rem 0px;
+  padding: 0.5rem 3rem 0px;
   align-items: center;
   position: fixed;
   left: 0px;
@@ -261,7 +261,7 @@ main .zuri_features {
 /* join us */
 
 .join_us {
-    background-color: #00aaff;
+    background: linear-gradient(black, #00aaff,#00aaff, black);
     padding: 4rem;
     text-align: center;
     color: #f2f2f2;
@@ -282,14 +282,14 @@ footer{
   display: flex;
   
   justify-content: space-evenly;
-  margin: 10px 0 5px;
-  padding: 10px 0 5px;
+  margin: 10px 0 2px;
+  padding: 10px 0 2px;
  
 }
 .social-media p{
   padding-top: 10px;
   color:white;
-  font-size:20px;
+  font-size:15px;
 }
 .social-media a img{
   width: 40px;
@@ -311,6 +311,19 @@ input[type=email]:placeholder{
 } */
 
 @media (max-width:900px) {
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #221c23;
+    padding: 0.5rem 3rem 0px;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 900;
+  }
   .zuri_features p {
     color: #000000;
     font-size: 1rem;
@@ -340,7 +353,7 @@ input[type=email]:placeholder{
 }
 
 .title h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 900;
 }
 .title p {
