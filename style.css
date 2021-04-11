@@ -276,15 +276,14 @@ main .zuri_features {
     font-size: 1.6rem;
 }
 footer{
-  background: darkslategray;
+  background: linear-gradient(rgb(0 12 19) 40%, #221c23);
 }
 .social-media{
-  display: flex;
   
+  display: flex;
   justify-content: space-evenly;
-  margin: 10px 0 2px;
-  padding: 10px 0 2px;
- 
+  margin: 0px 0 2px;
+  padding: 10px 0 2px; 
 }
 .social-media p{
   padding-top: 10px;
